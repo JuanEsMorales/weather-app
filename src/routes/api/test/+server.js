@@ -1,7 +1,8 @@
+import { API_KEY } from '../../../../apiKey.js';
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '092cdda351msh935d15bbfc2b155p13eb39jsn3865787dbfd8',
+		'X-RapidAPI-Key': API_KEY,
 		'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
 	}
 };
